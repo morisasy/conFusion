@@ -1,11 +1,11 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "This is a website for Ristorante ConFusion",
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
-    "start": "npm run",
+    "start": "./index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
