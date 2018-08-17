@@ -52,3 +52,24 @@ address{
 .navbar-dark {
      background-color: #512DA8;
 }
+
+.bg-warning {
+    background-color: #ffc107!important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: white;
+}
+.form-check{
+	width: 30px;
+	color:black;
+}
+.form-check-input {
+	width: 13px;
+}
+.form-check-label{
+	width:9px;
+}
