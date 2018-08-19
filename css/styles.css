@@ -73,3 +73,12 @@ address{
 .form-check-label{
 	width:9px;
 }
+
+.form-check-inline {
+ margin-right: .3rem;
+}
+
+.guest-no-label {
+	width: 50%;
+	color: black;
+}
