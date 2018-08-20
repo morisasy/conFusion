@@ -52,7 +52,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                     <button type="button" class="btn btn-primary">Reserve Table</button>
+                     <button type="button" class="btn btn-primary btn-reserve-table" style=" background-color: #f7ba06;"><a href="#reserve-table">Reserve Table</a></button>
                 </div>
             </div>
         </div>
@@ -109,14 +109,14 @@
             </div>
         </div>
       
-         <div class="row align-items-center row-content">
-                 <div class="col-12 col-sm-10">
+         <div class="row align-items-center row-content" id = "reserve-table">
+                 <div class="col-12 col-sm-10 col-sm-offset-2">
                     
                          <div class="card text-white bg-warning mb-3" style="max-width: 100%;">
                             <div class="card-header " >Reserver a Table</div>
                               <div class="card-body style="max-width: 100%;">
-                                <form style="max-width: 100%";>
-                                    <div  class= "row">
+                                
+                                    <div  class= "row" style="margin-bottom: 10px;">
                                          <div class="col-12 col-sm-4 ">
                                             <label class="form-check-label guest-no-label">Number of Guests</label>
                                         </div>
@@ -153,32 +153,23 @@
                                          <div class="col-12 col-sm-4 ">
                                             <label class="form-check-label guest-no-label">Date and Time</label>
                                         </div>
-                                        <div class="col-12 col-sm-8">
-                                            <div class="row">
-                                                <div class="col">
-                                                  <input type="text" class="form-control" placeholder="Date">
-                                                </div>
-                                                <div class="col">
-                                                  <input type="text" class="form-control" placeholder="Time">
-                                                </div>
-                                            </div>
-                                       </div>
+                                        <div class="col-12 col-sm-4">
+                                                <input type="text" class="form-control" placeholder="Date">                                               
+                                        </div>
+                                        <div class="col-12 col-sm-4">
+                                            <input type="text" class="form-control" placeholder="Date">          
+                                        </div>
                                     </div> 
-                                    <div clas = "row">
-                                     <div class="col col-sm-12 col-sm-offset-6">
-                                            <button type="button" class="btn btn-primary">Reserve</button>
-                                     </div>
-                                      
-                                  </div> 
-                                    
-                                  
-                            </form> 
-                                
-                                  
+                                    <div class = "row">
+                                         <div class="col-12 col-sm-12">
+                                                <button type="button" class="btn btn-primary">Reserve</button>
+                                         </div>
+                                   </div> 
+  
                         </div>                                                                    
                              
 
-                    </div>
+                  </div>
 
             
                 </div>
@@ -219,13 +210,13 @@
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
-                
+            </div>   
            <div class = "row justify-content-center">             
                 <div  class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
            </div>
-        </div>
+        
     </footer>
       <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

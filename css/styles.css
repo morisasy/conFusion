@@ -82,3 +82,33 @@ address{
 	width: 50%;
 	color: black;
 }
+.btn-primary{
+	margin-left: 0px !important;
+	margin-top: 15px;
+	border: none;
+	font-weight: 600;
+
+}
+
+.card {
+  border: 1px solid #dee2e6;   
+}
+
+.btn-reserve-table{
+	width: 100%;
+	color: #000 !important;
+	font-weight: 600;
+
+}
+
+a ,
+a:hover {
+	text-decoration: none;
+	color: #212529;
+}
+
+.card-header {
+
+    font-weight: 700;
+}
+
