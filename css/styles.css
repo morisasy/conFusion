@@ -84,7 +84,7 @@ address{
 }
 .btn-primary{
 	margin-left: 0px !important;
-	margin-top: 15px;
+	margin-top: 5px;
 	border: none;
 	font-weight: 600;
 
@@ -117,4 +117,22 @@ a:hover {
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+.modal-title{
+    color: black;
+
+}
+label{
+    color: black;
+}
+
+#nonSmoking {
+    background-color: #008000;
+}
+
+.smoking {
+    background-color: #FF0000;
+}
+.btn-reserve{
+    margin-top: 0 !important;
 }
