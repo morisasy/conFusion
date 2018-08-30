@@ -7,12 +7,14 @@
     "dev": "lite-server",
     "start": "./index",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Medi Risasi",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.7.2"
   },
   "keywords": [
     "Bootrap4",

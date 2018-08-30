@@ -1,0 +1,158 @@
+/* We rely on source order for mobile-first approach
+ * in this case:
+ * 1. header
+ * 2. Content
+ * 3. footer
+ */
+ body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.row-about-us {
+   margin:0px auto;
+   padding: 10px 0px 10px 0px;
+   height: 30px ;
+
+}
+
+
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
+.bg-warning {
+    background-color: #ffc107!important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: white;
+}
+.form-check{
+	width: 30px;
+	color:black;
+}
+.form-check-input {
+	width: 13px;
+}
+.form-check-label{
+	width:9px;
+}
+
+.form-check-inline {
+ margin-right: .3rem;
+}
+
+.guest-no-label {
+	width: 50%;
+	color: black;
+}
+.btn-primary{
+	margin-left: 0px !important;
+	margin-top: 5px;
+	border: none;
+	font-weight: 600;
+
+}
+
+.card {
+  border: 1px solid #dee2e6;   
+}
+
+.btn-reserve-table{
+	width: 100%;
+	color: #000 !important;
+	font-weight: 600;
+
+}
+
+a ,
+a:hover {
+	text-decoration: none;
+	color: #212529;
+}
+
+.card-header {
+
+    font-weight: 700;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.modal-title{
+    color: black;
+
+}
+label{
+    color: black;
+}
+
+#nonSmoking {
+    background-color: #008000;
+}
+
+.smoking {
+    background-color: #FF0000;
+}
+.btn-reserve{
+    margin-top: 0 !important;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
