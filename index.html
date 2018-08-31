@@ -35,18 +35,20 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
+                    <a>
+                    <span class="fa fa-sign-in"  id ="Navbarbtn"></span> Login</a>
+
                 </span>
+                 <button class="navbar-toggler" type="button" id ="Navbar-btn">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
                           
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-        </button>
+       
     </nav>
 
-     <div id="loginModal" class="modal fade" role="dialog">
+     <div class="modal"  id="loginModal"  fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
             <div class="modal-content">
@@ -55,7 +57,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id = "formlogin">
                         <div class="form-row">
                             <div class="form-group col-sm-4">
                                     <label class="sr-only" for="exampleInputEmail3">Email address</label>
@@ -94,12 +96,13 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                   <a role="button" class="btn btn-block nav-link btn-warning"
-                        data-toggle="modal" data-target="#reserveTable" 
-                        data-placement="bottom" href="#reserveform">Reserve Table</a>
+                   
+                    <button type="button" class="btn btn-warning btn-sm btn-block text-dark" id = "reservebtn" >
+                        Reserve Table
+                    </button>
                 </div>
 
-                     <div class="modal" id="reserveTable" tabindex="-1" role="dialog">
+                     <div class="modal" id="reserveTableModal" tabindex="-1" role="dialog">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -364,7 +367,17 @@
                     $("#carouselButton").children("span").addClass('fa-pause');                    
                 }
             });
-        });
+              
+           
+		    $("#reservebtn").click(function(){
+			        $("#reserveTableModal").modal();
+			});
+		
+
+			$("#Navbarbtn").click(function(){
+			        $("#loginModal").modal();
+			});
+	  });
     </script>
     
 
