@@ -31,5 +31,12 @@
 #### **Get Start**
    - $lite-server 
 
+#### **Gulp Configuration**
 
-   
+  
+   ''''
+   		-  npm install -g `gulp-cli`
+   		-  npm install gulp --save-dev
+   		-  npm install gulp-sass  browser-sync@ --save-dev
+
+   '''

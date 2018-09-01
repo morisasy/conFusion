@@ -13,8 +13,12 @@
   "author": "Medi Risasi",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gul": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
     "lite-server": "^2.4.0",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.9.3"
   },
   "keywords": [
     "Bootrap4",
