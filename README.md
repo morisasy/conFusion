@@ -38,5 +38,8 @@
    		-  npm install -g `gulp-cli`
    		-  npm install gulp --save-dev
    		-  npm install gulp-sass  browser-sync@ --save-dev
+   		-  npm install del --save-dev
+   		-  npm install gulp-imagemin --save-dev
+   		-  npm install gulp-uglify gulp-usemin gulp-rev gulp-clean-css gulp-flatmap gulp-htmlmin --save-dev
 
    '''

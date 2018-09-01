@@ -14,9 +14,17 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.7",
+    "del": "^3.0.0",
     "gul": "^1.0.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rev": "^8.1.1",
     "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.29",
     "lite-server": "^2.4.0",
     "node-sass": "^4.9.3"
   },
